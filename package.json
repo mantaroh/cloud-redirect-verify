@@ -1,0 +1,13 @@
+{
+    "name": "direct_test",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "private": true,
+    "scripts": {
+      "dev": "spear watch",
+      "build": "echo 'build'",
+      "lint": "eslint --fix 'src/**/*.js' && prettier --write 'src/**/*.{js,css,html,spear}'"
+    }
+  }
+  
